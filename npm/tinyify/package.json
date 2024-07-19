@@ -1,0 +1,20 @@
+{
+  "name": "tinyify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "xym-mk3-cli": "xym-mk3-cli",
+    "xym-mk2-cli": "xym-mk2-cli",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "xym-mk3-cli": "^1.0.1"
+  },
+  "dependencies": {
+    "xym-mk2-cli": "^1.0.1"
+  }
+}
