@@ -1,0 +1,18 @@
+{
+  "name": "loader",
+  "version": "1.0.0",
+  "description": "<!--  * @Date: 2024-07-29 09:12:21  * @LastEditors: 徐一鸣  * @LastEditTime: 2024-07-29 10:04:26  * @Description: --> 1、loader的本质是什么? 2、在webpack中如何使用自定义loader？有几种方式？ 3、loader类型有哪几种？他们的运行顺序是怎么样的？如何控制他们的运行顺序？ 4、什么是Normal Loader？什么事pitching loader他们的运行机制有什么不同？ 5、如果一个文件指定了多个loader，如何控制使得只执行特定的loader，忽略其他的loader？ 6、loader为什么事自右向左执行的？如何做到的？ 7、项目中对css、less、scss、tsx、vue、等文件是如何做解析？他们的原理是什么？ 8、webpack中完整的loader运行机制是怎样的？ 9、为什么最后的loader处理结果必须是js类型额度字符串？ 10、给你个需求需要在打包过程中移除console.log函数，你会痛骨那种方式进行处理？是通过loade还是babel plugin再或者是webpack plugin？给出你的理由",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.6.0",
+    "webpack": "^5.93.0",
+    "webpack-cli": "^5.1.4"
+  }
+}

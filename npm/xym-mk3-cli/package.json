@@ -1,11 +1,11 @@
 {
-  "name": "xym-test-cli",
-  "version": "1.0.0",
+  "name": "xym-mk3-cli",
+  "version": "1.0.1",
   "description": "<!--  * @Date: 2024-07-18 11:58:08  * @LastEditors: 徐一鸣  * @LastEditTime: 2024-07-18 11:58:13  * @Description: --> cli学习",
   "main": "index.js",
   "type": "module",
   "bin": {
-    "xym-test-cli": "bin/index.js"
+    "xym-mk3-cli": "bin/index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,14 +13,11 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
     "chalk": "^5.3.0",
     "commander": "^12.1.0",
     "figlet": "^1.7.0",
     "inquirer": "^10.0.3",
     "ora": "^8.0.1"
-  },
-  "dependencies": {
-    "user": "^0.0.0"
   }
 }

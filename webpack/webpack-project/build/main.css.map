@@ -1,0 +1,1 @@
+{"version":3,"file":"main.css","mappings":"AAAA,KCCE,eAAgB,CDAhB,SACF","sources":["webpack://webpack/./app/assets/index.css","webpack://webpack/./app/assets/reset.less"],"sourcesContent":["body {\n  color: red;\n}","body {\n  background: #000;\n}"],"names":[],"sourceRoot":""}

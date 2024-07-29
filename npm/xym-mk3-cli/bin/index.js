@@ -1,6 +1,5 @@
 #!/usr/bin/env node
 
-
 import { program } from 'commander' // 脚手架框架
 import chalk from 'chalk' // 彩色输出
 import inquirer from 'inquirer' // 命令行交互工具
@@ -36,5 +35,4 @@ program.action(() => {
   })
 })
 // process.argv  命令行参数
-console.log(process.argv)
 program.parse(process.argv)

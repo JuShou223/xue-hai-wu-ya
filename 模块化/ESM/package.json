@@ -1,0 +1,14 @@
+{
+  "name": "module",
+  "version": "1.0.0",
+  "description": "<!--  * @Date: 2024-07-18 14:31:06  * @LastEditors: 徐一鸣  * @LastEditTime: 2024-07-22 15:27:16  * @Description: --> 为什么会出现模块化？   没有模块化之前的JavaScript开发存在全局污染和依赖管理混乱的问题。   全局污染：     没有模块化之前我们通常在html页面上会引入多个js文件, 假设html引入了2个js, 分别为a.js, b.js，顺序也是ab，ab.js中定义了相同的变量，那么a.js和b.js中定义的变量就发生了冲突，加载顺序靠后的变量会覆盖掉加载顺序靠前的变量，当然有一种方法可以解决这个问题，那就是使用匿名函数自执行的方式，形成独立的块级作用域，但是实际开发中的情况会更加复杂，比如想在b文件中调用a文件的方法，形成块级作用域后就不能调用了。   依赖管理混乱：     还是上面的例子a文件不能调用b文件内的方法，b文件可以调用a文件内的方法。",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
